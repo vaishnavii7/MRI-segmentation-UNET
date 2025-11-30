@@ -1,1 +1,1 @@
-# MRI-segmentation-UNET
+Brain MRI segmentation using UNET
