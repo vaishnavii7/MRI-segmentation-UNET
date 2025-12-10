@@ -1,4 +1,4 @@
 ### Brain MRI-Segmentation 
 
-This project demonstrates the use of U-NET convolutional neural network for automatic tumor segmentation on brain MRI images (kaggle dataset). 
+This project demonstrates the use of U-NET convolutional neural network for automatic tumor segmentation on brain MRI images. 
 The workflow includes data loading, preprocessing, augmentation, model construction, training, and evaluation, all implemented in PyTorch. A custom dataset class handles MRI images and their segmentation masks while UNET architecture learns to map each image to a pixel-wise probability mask. The model is optimized with BCE + Dice loss to improve pixel-level segmentation accuracy. The notebook includes training and validation loops, metric tracking (Dice + IoU), and visualization of predictions. 
